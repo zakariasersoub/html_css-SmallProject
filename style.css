@@ -1,0 +1,201 @@
+/* 
+    Theme Name :HTML5;
+    Date:March 2015;
+    Discription: Learn Basic HTML5 ;
+    Version : 1.0 ;
+    Author: Zakaria Sersoub ;
+    Author URL: https://www.dr-zakaria.com
+
+*/
+
+body{
+    background-color: beige;
+    color: black;
+    font-size: 90%; /* base font-size = 14px*/
+    font-family: Arial, 'lucida Sans Unicode' ; 
+    line-height: 1.5;
+    text-align: left;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:link , a:visited{color: #30336b;}
+a:hover, a:active{color: #686de0;}
+
+.body{
+    margin: 10px auto;
+    width: 80%;
+    clear: both;
+}
+
+img{
+    width: 100%;
+}
+
+/* --------------Main Header------------------- */
+
+.mainheader nav{
+    background-color: black;
+    height: 40px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+}
+
+.mainheader nav ul {
+    text-align: center;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.mainheader nav ul li {
+    display: inline;
+}
+
+.mainheader a:link , .mainheader a:visited{
+    color:antiquewhite;
+    padding: 10px 5%;
+    display:inline-block;
+    height: 20px;
+
+}
+
+.mainheader a:hover , .mainheader a:active{
+    background-color: #ebcb4b;
+    color: black;
+    text-shadow: none;
+}
+
+
+/* --------------Main Content------------------- */
+.maincontent {
+    width: 70%;
+    float: left;
+}
+
+.top-content{
+    background-color: white;
+    padding: 3%;
+    margin-top: 3%;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+}
+
+.post-info{
+    font-size: 90%;
+    color: #999;
+    font-style: italic;
+    margin-top: -15px;
+}
+
+.post-content{
+    font-size: 100%;
+    display: block;
+}
+
+/* --------------SIDE BARE------------------- */
+
+.sideBare {
+    width: 24%;
+    margin: 2% 0 0 2%;
+    padding: 2%;
+    float: right;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    background-color: white;
+}
+
+
+/* --------------FOOTER------------------- */
+
+.footer{
+    margin-top:2%; 
+    background-color: black;
+    height: 60px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+
+.footer p {
+    text-align: center;
+    color: white;
+    width: 90%;
+}
+
+/* ------------HTML5-------------- */
+
+figure{
+    margin: 2% 0;
+    font-size: 80%;
+    color: grey;
+}
+
+.post-img{
+    width: 100%;
+}
+
+/* ------------ CSS3 FOR MOBILE -------------- */
+
+@media screen and (max-width: 480px){
+    .body{
+        width: 90%;
+        font-size: 95%;
+    }
+
+    /* -------------- Main Header mobile ------------------- */
+
+    .mainheader nav{
+        height: 160px;
+    }
+
+    .mainheader a:link , .mainheader a:visited{
+        display:block;
+    }
+
+    /* --------------Main Content------------------- */
+    .maincontent {
+        width: 100%;
+    }
+
+
+    /* --------------SIDE BARE------------------- */
+
+    
+    .sideBare {
+        width: 96%;
+        margin: 2% 0 0 0;
+    }
+
+}
+
+@media screen and (max-width: 680px){
+    .body{
+        width: 90%;
+        font-size: 95%;
+    }
+
+    /* -------------- Main Header mobile ------------------- */
+
+    .mainheader nav {
+        font-size: 90%;
+    }
+    .mainheader nav ul li {
+        display: inline;
+    }
+
+    .mainheader a:link , .mainheader a:visited{
+        padding: 10px 3%;
+
+    }
+}
+
